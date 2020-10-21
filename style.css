@@ -1,0 +1,110 @@
+/*Colors and Fonts*/
+
+body {
+	background-color: #F1E0C5;
+	color: rgb(50, 50, 50);
+	font-size: 17px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	color: #985717;
+	font-weight: 900;
+	letter-spacing: 7px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #985717;
+	font-size: 24px
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+	color: #71816D;
+    transition: : color 0.3s ease;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    font-size: 20px
+}
+a:hover {
+	color: rgb(255, 193, 12);
+}
+
+/*Customs Designs with Class*/
+
+.container {
+    width: 700px;
+	margin: 40px auto; 
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-brown {
+	background-color: #F1E0C5;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}	
+.btn-brown:hover {
+	background-color: #985717;
+	color: rgb(255, 193, 12);
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.liste-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #F1E0C5;
+}
+.list-inline i:hover {
+	color: #985717;
+}
+#introduction p {
+	margin: 40px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
